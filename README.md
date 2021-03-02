@@ -3,7 +3,7 @@
 <!-- 为了追求美观与实用，我的chrome中安装了很多的扩展，但是很少能够兼顾大部分人日常使用和美观的。所以我选择自己动手做一个。 -->
 
 
-![no_img](https://github.com/WantedSr/doing/cover.png)
+![no_img](https://raw.githubusercontent.com/WantedSr/doing/main/cover.png)
 
 包含了大部分前端人日常使用的功能集合的小chrome扩展
 
