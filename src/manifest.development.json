@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "doing-tab",
+  "version": "1.0.0",
+  "description": "一个整合了常用功能的新建标签页，富含了收藏夹管理，前端最新消息，todo小应用，便捷搜索，最近访问等功能",
+  "author": "wanted",
+  "options_page": "options.html",
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "chrome_url_overrides": {
+    "newtab": "options.html"
+  },
+  "permissions": ["tabs", "bookmarks", "declarativeContent", "https://*/", "chrome://favicon/*"],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
